@@ -187,7 +187,7 @@ public class VectorImplementation<T> implements array.Vector<T> {
 			desc= desc +" , "+arr[i];
 		}
 		
-		desc += "]";
+		desc += " ]";
 		
 		return desc;
 
