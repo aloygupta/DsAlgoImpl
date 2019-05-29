@@ -1,9 +1,5 @@
 package list.implementation;
 
-import java.util.EmptyStackException;
-
-import org.omg.CosNaming.NamingContextPackage.NotFound;
-
 import list.List;
 
 
@@ -140,7 +136,7 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			
 			//currentNode now points to 2nd last node
 			T lastNodeValue = currentNode.next.value;
-			//make 2nd lastnode point to null, thus allowing GC to collect last node
+			//make 2nd last node point to null, thus allowing GC to collect last node
 			currentNode.next = null;
 			--size;
 			return lastNodeValue;
@@ -185,6 +181,7 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		}
 		else {
 			Node current = head;
+			//navigate to just before the index
 			for(int i = 1; i<index; i++) {
 				current = current.next;
 			}
@@ -210,7 +207,7 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			for(int i = 1; i<index; i++) {
 				current = current.next;
 			}
-			
+			//point pre-target node's next pointer to post-target node
 			current.next = current.next.next;;
 			--size;
 		}
@@ -251,10 +248,11 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			previousNode = currentNode;
 			currentNode = nextNode;
 			
+			// at one point currentNode will reach null, signifying end of list prevent NPE of nextNode
 			if(currentNode != null)
 			nextNode = currentNode.next;
 		}
-		
+		//since currentNode is now null after exit from while loop, previousNode is the head of the reversed list
 		this.head = previousNode;
 		
 	}
