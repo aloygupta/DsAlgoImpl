@@ -2,6 +2,7 @@ package testclasses;
 
 import list.List;
 import list.implementation.LinkedListWithOutTail;
+import list.implementation.LinkedListWithTail;
 
 public class ListTest {
 
@@ -9,7 +10,7 @@ public class ListTest {
 		
 		try {
 			
-		List<Integer> myList = new LinkedListWithOutTail<>();
+		List<Integer> myList = new LinkedListWithTail<>();
 		System.out.println("Empty? : "+myList.empty());
 		
 		//myList.removeValue(6);
@@ -62,17 +63,17 @@ public class ListTest {
 			
 			//myList.insert(-1, 9);
 			//myList.insert(myList.size(), 87);
-			myList.insert(3, 6);
-			System.out.println("After inserting 6 at index 3: "+myList.toString());
+			myList.insert(myList.size()-1,3);
+			System.out.println("After inserting 3 at index : "+(myList.size()-2)+myList.toString());
 			
 			//myList.erase(-1);
-			//myList.erase(myList.size());
+			//myList.erase(myList.size()-1);
 			myList.erase(3);
 			System.out.println("After erasing value at index 3: "+myList.toString());
 			
 			//myList.valueNFromEnd(-1);
 			//myList.valueAt(myList.size());
-			System.out.println("Index 3 value from end: "+myList.valueNFromEnd(3));
+			System.out.println("Index 1 value from end: "+myList.valueNFromEnd(1));
 			
 			
 			myList.reverse();

@@ -3,7 +3,7 @@ package list.implementation;
 import list.List;
 
 
-public class LinkedListWithOutTail<T> implements List<T> {
+public class LinkedListWithTail<T> implements List<T> {
 
 	
 	private class Node{
@@ -18,11 +18,13 @@ public class LinkedListWithOutTail<T> implements List<T> {
 	}
 	
 	private Node head;
+	private Node tail;
 	private int size;
 	
-	public LinkedListWithOutTail() {
+	public LinkedListWithTail() {
 		
 		this.head = null;
+		this.tail = null;
 		this.size = 0;
 	}
 	
@@ -43,6 +45,9 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		if(index <= 0 || index >= size )
 			throw new IndexOutOfBoundsException("Can not fetch "+index+"th index value from start");
 		
+		if(index == (size-1))
+			return tail.value;
+		
 		Node currentNode = head;
 		for(int i=0 ;i<index;i++) {
 			currentNode = currentNode.next;
@@ -59,9 +64,10 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		if(head == null) {
 			// empty linked list
 			newFrontNode = new Node(value, null);
+			tail = newFrontNode;
 		}
 		else {
-			// at least one node is there
+			// at least one node is there, no need to change tail
 			newFrontNode = new Node(value, head);
 		}
 		
@@ -80,6 +86,11 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		
 		Node headNode = head;
 		//redirect head to next node
+		if(head.next == null) {
+			// only 1 node, so tail has to be made null
+			tail = null;
+		}
+		// no need to modify tail
 		head = head.next;
 		//isolate the node, not really required though.
 		//headNode should get GC when this function finishes. 
@@ -94,19 +105,21 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		Node newlastNode = new Node(value, null);
 		if(head == null) {
 			//empty linked list
-			head = newlastNode;
+			head = tail = newlastNode;
 			
 		}
 		else {
 			// go to the last node
-			Node currentNode = head;
+			/*Node currentNode = head;
 			while(currentNode.next != null) {
 				
 				currentNode = currentNode.next;
 			}
 			
 			currentNode.next = newlastNode;
-			
+			*/
+			tail.next = newlastNode;
+			tail = newlastNode;
 		}
 		
 		++size;		
@@ -123,8 +136,8 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		{
 			//only 1 item in list
 			T valueOfHead = head.value;
-			//make head null, GC will collect it
-			head = null;
+			//make head and tail null, GC will collect it
+			head = tail = null;
 			--size;
 			return valueOfHead;
 		}
@@ -136,6 +149,7 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			
 			//currentNode now points to 2nd last node
 			T lastNodeValue = currentNode.next.value;
+			tail = currentNode;
 			//make 2nd last node point to null, thus allowing GC to collect last node
 			currentNode.next = null;
 			--size;
@@ -160,12 +174,13 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			throw new Exception("Empty Linked List");
 		else
 		{
-			Node current = head;
+			/*Node current = head;
 			while(current.next != null) {
 				current = current.next;
 			}
 			
-			return current.value;
+			return current.value;*/
+			return tail.value;
 		}
 	}
 
@@ -209,6 +224,10 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			}
 			//point pre-target node's next pointer to post-target node
 			current.next = current.next.next;
+			if(index == (size-1)) {
+				// last node has been removed, so modify tail to point to current, whose next is null
+				tail = current;
+			}
 			--size;
 		}
 	}
@@ -218,6 +237,9 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		
 		if(n < 0 || n >= size )
 			throw new IndexOutOfBoundsException("Can not fetch value at "+n+"th index from end");
+		
+		if(n == 0)
+			return tail.value;
 		
 		if(n == (size -1))
 			return head.value;
@@ -255,6 +277,8 @@ public class LinkedListWithOutTail<T> implements List<T> {
 			if(currentNode != null)
 			nextNode = currentNode.next;
 		}
+		//previously what was head node, is now tail
+		this.tail = this.head;
 		//since currentNode is now null after exit from while loop, previousNode is the head of the reversed list
 		this.head = previousNode;
 		
@@ -278,8 +302,17 @@ public class LinkedListWithOutTail<T> implements List<T> {
 				if(previousNode == null) {
 					//firstNode is matched
 					head = head.next;
+					
+					if(head == null) // only one node was there, that too has been removed
+						tail = null;
 				}
 				else {
+					
+					if(currentNode.next == null) {
+						// check whether currentNode is last node, if yes, have to update tail pointer
+						tail = previousNode;
+					}
+					
 					previousNode.next = currentNode.next;
 					currentNode.next = null;
 					currentNode = null;
@@ -287,6 +320,7 @@ public class LinkedListWithOutTail<T> implements List<T> {
 				
 				nodeFound = true;
 				--size;
+				
 				break;
 			}
 			
@@ -316,6 +350,8 @@ public class LinkedListWithOutTail<T> implements List<T> {
 		}
 		
 		desc += " ]";
+		
+		//desc += " Head: "+head.value+" , Tail: "+tail.value;
 		
 		return desc;
 		
