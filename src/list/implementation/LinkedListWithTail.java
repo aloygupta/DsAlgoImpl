@@ -42,7 +42,7 @@ public class LinkedListWithTail<T> implements List<T> {
 	@Override
 	public T valueAt(int index) {
 		
-		if(index <= 0 || index >= size )
+		if(index < 0 || index >= size )
 			throw new IndexOutOfBoundsException("Can not fetch "+index+"th index value from start");
 		
 		if(index == (size-1))

@@ -40,7 +40,7 @@ public class LinkedListWithOutTail<T> implements List<T> {
 	@Override
 	public T valueAt(int index) {
 		
-		if(index <= 0 || index >= size )
+		if(index < 0 || index >= size )
 			throw new IndexOutOfBoundsException("Can not fetch "+index+"th index value from start");
 		
 		Node currentNode = head;

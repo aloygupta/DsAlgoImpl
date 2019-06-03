@@ -10,7 +10,7 @@ public class ListTest {
 		
 		try {
 			
-		List<Integer> myList = new LinkedListWithTail<>();
+		List<Integer> myList = new LinkedListWithOutTail<>();
 		System.out.println("Empty? : "+myList.empty());
 		
 		//myList.removeValue(6);
@@ -21,6 +21,7 @@ public class ListTest {
 		
 		//myList.pushFront(3);
 		myList.pushBack(3);
+		System.out.println("value at 0: "+myList.valueAt(0));
 		//myList.popBack();
 		//myList.reverse();
 		//System.out.println(myList.toString());
