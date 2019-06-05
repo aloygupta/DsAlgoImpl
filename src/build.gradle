@@ -41,7 +41,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
-mainClassName = 'testclasses.StackTest'
+mainClassName = 'testclasses.QueueTest'
 
 // tag::repositories[]
 repositories {

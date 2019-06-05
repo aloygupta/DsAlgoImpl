@@ -9,13 +9,12 @@ public class ArrayStack<T> implements Stack<T>{
 	private Vector<T> elements;
 	private int size;
 	
-	//private static final int MAX_SIZE = Integer.MAX_VALUE;
-	private static final int DEFAULT_SIZE = 100;
+	private static final int DEFAULT_CAPACITY = 100;
 	
 	public ArrayStack() {
 		
 		this.size = 0;
-		this.elements = new VectorImplementation<>(DEFAULT_SIZE);
+		this.elements = new VectorImplementation<>(DEFAULT_CAPACITY);
 	}
 
 	@Override
