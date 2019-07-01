@@ -41,7 +41,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
-mainClassName = 'testclasses.QueueTest'
+mainClassName = 'testclasses.HashTableTest'
 
 // tag::repositories[]
 repositories {
