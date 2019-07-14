@@ -6,36 +6,6 @@ public class LinearProbingHashTable<Key,Value> implements HashTable<Key, Value> 
 
 	// Nice ref: http://www.cs.rmit.edu.au/online/blackboard/chapter/05/documents/contribute/chapter/05/linear-probing.html
 
-	private class KeyValuePair<Key,Value>{
-
-		private Key key;
-		private Value value;
-
-		public KeyValuePair(Key key, Value value) {
-			this.key = key;
-			this.value =value;
-		}
-
-		@Override
-		public boolean equals(Object obj) {
-			return (obj instanceof LinearProbingHashTable.KeyValuePair) 
-					&&
-					(this.key == ((KeyValuePair<Key, Value>)obj).key
-					&&
-					this.value == ((KeyValuePair<Key,Value>)obj).value
-							);
-		}
-
-		@Override
-		public String toString() {
-
-			if(key == null)
-				return "_DELETED_";
-
-			return "( Key: "+key+" , Value: "+value+" , Hashcode: "+Math.abs(key.hashCode())+","+Math.abs((key.hashCode())%MAX_TABLE_SIZE)+" )";
-		}
-	}
-
 	private static final int MAX_TABLE_SIZE = 10;
 	private KeyValuePair<Key,Value>[] hashtable;
 
@@ -226,5 +196,34 @@ public class LinearProbingHashTable<Key,Value> implements HashTable<Key, Value> 
 		return desc;
 	}
 
+	private class KeyValuePair<Key,Value>{
+
+		private Key key;
+		private Value value;
+
+		public KeyValuePair(Key key, Value value) {
+			this.key = key;
+			this.value =value;
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			return (obj instanceof LinearProbingHashTable.KeyValuePair) 
+					&&
+					(this.key == ((KeyValuePair<Key, Value>)obj).key
+					&&
+					this.value == ((KeyValuePair<Key,Value>)obj).value
+							);
+		}
+
+		@Override
+		public String toString() {
+
+			if(key == null)
+				return "_DELETED_";
+
+			return "( Key: "+key+" , Value: "+value+" , Hashcode: "+Math.abs(key.hashCode())+","+Math.abs((key.hashCode())%MAX_TABLE_SIZE)+" )";
+		}
+	}
 
 }
