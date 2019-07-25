@@ -1,22 +1,21 @@
 package testclasses;
 
 import tree.Tree;
+import tree.implementation.BSTIterative;
 import tree.implementation.BSTRecursive;
 
 public class TreeTest {
 
-  /*  class MyAbc implements Comparable<MyAbc>{
-
-        @Override
-        public int compareTo(MyAbc o) {
-            return 0;
-        }
-    }*/
-
     public static void main(String[] args){
 
-        Tree<Integer> tree = new BSTRecursive<>();
+        Tree<Integer> tree = new BSTIterative<>();
         try {
+            //small test data
+            /* tree.insert(1);
+           tree.insert(6);
+           tree.insert(3);;*/
+
+
             //System.out.println("Height of tree: "+tree.getHeight());  // exception, empty BST
             tree.insert(56);
             tree.insert(44);
@@ -29,8 +28,8 @@ public class TreeTest {
             System.out.println();
             tree.printValues(Tree.TraversalStyle.INORDER);
             System.out.println();
-            tree.printValues(Tree.TraversalStyle.POSTORDER);
-            System.out.println();
+            //tree.printValues(Tree.TraversalStyle.POSTORDER);
+            //System.out.println();
             tree.printValues(Tree.TraversalStyle.LEVELORDER);
             System.out.println();
             System.out.println("Node count: "+tree.getNodeCount());
@@ -52,14 +51,14 @@ public class TreeTest {
 
             System.out.println("Successor of 90: "+tree.getSuccessor(90));
             System.out.println("Successor of 23: "+tree.getSuccessor(23));
+            System.out.println("Successor of 51: "+tree.getSuccessor(51));
 
             System.out.println("Height of tree: "+tree.getHeight());
 
             System.out.println("Is 44 in tree? "+tree.isInTree(44));
             System.out.println("Is 56 in tree? "+tree.isInTree(56));
 
-            System.out.println("Is BST? "+tree.isBinarySearchTree(Integer.MIN_VALUE,Integer.MAX_VALUE));
-
+            //System.out.println("Is BST? "+tree.isBinarySearchTree(Integer.MIN_VALUE,Integer.MAX_VALUE));
 
         } catch (Exception e) {
             e.printStackTrace();

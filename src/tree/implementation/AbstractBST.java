@@ -51,6 +51,17 @@ abstract class AbstractBST<T extends Comparable<T>> implements Tree<T> {
 			return this.value.compareTo(other.value);
 		}
 
+		@Override
+		public boolean equals(Object obj) {
+
+			if(obj instanceof Node){
+
+				Node<T> otherNode = (Node<T>)obj;
+				if(this.compareTo(otherNode) == 0)
+					return true;
+			}
+			return false;
+		}
 	}
 		
 }

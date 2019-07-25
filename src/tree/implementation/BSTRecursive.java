@@ -137,29 +137,30 @@ public class BSTRecursive<T extends Comparable<T>> extends tree.implementation.A
 
 	private void printLevelOrder(Node<T> root){
 
-		if(root == null)
-			return;
+        try {
+            int heightOfTree = getHeight();
+            for(int level=0; level<=heightOfTree; level++) {
+                printLevelOrderRecursive(root,level);
+            }
 
-		Queue<Node<T>> queue = new LinkedQueue<Node<T>>();
-		try {
-			queue.enqueue(root);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-			while (!queue.empty()){
-				Node<T> frontNode = queue.dequeue();
+    }
 
-				// if the node has left and/or right child, add them in queue
-				if(frontNode.left != null)
-					queue.enqueue(frontNode.left);
-				if(frontNode.right != null)
-					queue.enqueue(frontNode.right);
+    private void printLevelOrderRecursive(Node<T> root,int level){
 
-				// print out the node, it has already been dequeued.
-				System.out.print(frontNode+" ");
-			}
-		} catch (Exception e) {
-			System.out.println("Exception occured while traversing: "+e);
-		}
-	}
+        if (root == null)
+            return;
+
+        if (level == 0)
+            System.out.print(root + " ");
+        else {
+            printLevelOrderRecursive(root.left, level - 1);
+            printLevelOrderRecursive(root.right, level - 1);
+        }
+    }
 
 	@Override
 	public boolean isInTree(T value) throws Exception {
