@@ -33,5 +33,6 @@ public interface Vector<T> {
 	//looks for value and returns first index with that value, -1 if not found
 	int find(T item);
 	
-	
+	// update the value at current index with given value
+	void update(int index, T value);
 }

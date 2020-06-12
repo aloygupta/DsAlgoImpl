@@ -67,7 +67,7 @@ public class VectorImplementation<T> implements array.Vector<T> {
 	public T at(int index) {
 
 		if(index <0 || index >= size)
-			throw new IndexOutOfBoundsException("Trying to retreive element outisde of array size");
+			throw new IndexOutOfBoundsException("Trying to retreive element outside of array size");
 		else
 			return (T) arr[index];
 	}
@@ -173,7 +173,16 @@ public class VectorImplementation<T> implements array.Vector<T> {
 		
 		return -1;
 	}
-	
+
+	@Override
+	public void update(int index, T value) {
+
+		if(index < 0 || index >= arr.length)
+			throw new IndexOutOfBoundsException("Trying to update index outside vector");
+
+		arr[index] = value;
+	}
+
 	@Override
 	public String toString() {
 

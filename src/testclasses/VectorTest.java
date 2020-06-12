@@ -68,8 +68,13 @@ public class VectorTest {
 			System.out.println(vector);
 			
 			System.out.println("find index of 3 "+vector.find(3));
-			
-			
+
+			System.out.println("Popped: "+vector.pop());
+			System.out.println("Popped: "+vector.pop());
+			//System.out.println("Popped: "+vector.pop());
+			System.out.println("Size: "+vector.size());
+			System.out.println("isEmpty "+vector.isEmpty());
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println(e);
