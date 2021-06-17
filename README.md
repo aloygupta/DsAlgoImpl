@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/aloygupta/DsAlgoImpl.svg?branch=master)](https://travis-ci.com/aloygupta/DsAlgoImpl)
 
+[![Coverage Status](https://coveralls.io/repos/github/aloygupta/DsAlgoImpl/badge.svg?branch=master)](https://coveralls.io/github/aloygupta/DsAlgoImpl?branch=master)
+
 # Coding Interview University
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
