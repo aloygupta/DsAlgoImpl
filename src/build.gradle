@@ -89,6 +89,6 @@ jacocoTestReport {
 }
 // coveralls report path
 coveralls {
-    jacocoReportPath 'build/reports/jacoco/test/html/index.html'
+    jacocoReportPath 'build/reports/jacoco/test/html/index.xml'
 }
 
