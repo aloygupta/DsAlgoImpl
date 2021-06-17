@@ -1,5 +1,6 @@
+jdk: 
+  - oraclejdk8
 language: java
-jdk:
-- oraclejdk8
-./gradlew assemble
-./gradlew check
+script: 
+  - "./gradlew assemble"
+  - "./gradlew check"
