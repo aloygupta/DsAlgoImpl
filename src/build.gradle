@@ -7,12 +7,9 @@
  * user guide available at https://docs.gradle.org/2.8/userguide/tutorial_java_projects.html
  */
 // Apply the java plugin to add support for Java
-plugins {
-    id 'jacoco'
-    id 'com.github.kt3k.coveralls' version '2.12.0'
-}
 
 apply plugin: 'java'
+apply plugin: 'jacoco'
 
 sourceSets {
     main {
@@ -80,15 +77,11 @@ task wrapper(type: Wrapper) {
     gradleVersion = '3.5'
 }
 // end::wrapper[]
-
 jacocoTestReport {
     reports {
-        xml.enabled = true // coveralls plugin depends on xml format report
-        html.enabled = true
+        xml.enabled true
+        html.enabled false
     }
 }
-// coveralls report path
-coveralls {
-    jacocoReportPath 'build/reports/jacoco/test/jacocoTestReport.xml'
-}
 
+check.dependsOn jacocoTestReport

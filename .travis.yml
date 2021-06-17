@@ -7,6 +7,9 @@ script:
   - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
-  - "./gradlew jacocoTestReport coveralls"
+  - ./gradlew check
+  - ./gradlew jacocoTestReport
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 notifications:
   email: false
