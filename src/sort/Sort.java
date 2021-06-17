@@ -5,7 +5,8 @@ import list.List;
 public interface Sort<T>  {
 
     enum STRATEGY{
-        IN_PLACE, OUTPUT_ARRAY
+        MERGESORT_TOPDOWN_RECURSIVE, MERGESORT_BOTTOMUP_ITERATIVE,
+        BUBBLESORT_BOTTOMUP_ITERATIVE
     }
 
     /**

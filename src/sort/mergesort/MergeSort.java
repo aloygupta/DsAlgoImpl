@@ -1,10 +1,12 @@
 package sort.mergesort;
 
+import logging.LogUtils;
 import sort.Sort;
 import sort.SortObject;
 
 public class MergeSort<T extends Comparable> implements Sort<T>{
 
+    private LogUtils logUtils = new LogUtils(MergeSort.class.getSimpleName(),true);
     private T[] arrayToSort;
 
     private MergeSort(){
@@ -23,27 +25,56 @@ public class MergeSort<T extends Comparable> implements Sort<T>{
             aux[i] = new SortObject(arrayToSort[i]);
         }
 
-        sort(strategy,arrayToSort,aux,0,(arrayToSort.length-1));
+        if(strategy == STRATEGY.MERGESORT_TOPDOWN_RECURSIVE){
+            sortRecursive(arrayToSort,aux,0,(arrayToSort.length-1));
+        }
+        else{
+            sortIterative(arrayToSort,aux);
+        }
 
         return arrayToSort;
 
     }
 
-    private void sort(STRATEGY strategy,T[] arr, SortObject[] aux,int low, int high){
+    private void sortRecursive(T[] arr, SortObject[] aux, int low, int high){
 
-        // if high and low are same, its an one element array, hence "sorted"
-        if(high<=low)
-            return;
+            // if high and low are same, its an one element array, hence "sorted"
+            if(high<=low)
+                return;
 
-        int mid = low + (high - low)/2;
+            int mid = low + (high - low)/2;
 
-        // sort the first half recursively
-        sort(strategy, arr, aux, low, mid);
-        // sort the second half recursively
-        sort(strategy, arr, aux, mid+1, high);
-        // merge both the halves
-        merge(arr,aux,low,mid,high);
+            // sortRecursive the first half recursively
+            sortRecursive(arr, aux, low, mid);
+            // sortRecursive the second half recursively
+            sortRecursive(arr, aux, mid+1, high);
+            // merge both the halves
+            merge(arr,aux,low,mid,high);
 
+    }
+
+    private void sortIterative(T[] arr, SortObject[] aux){
+
+        int low = 0;
+        int high = arr.length -1;
+
+        //arrayBlockSize = 1,2,4,8,16..
+
+        int length = arr.length;
+        for(int arrayBlockSize =1; arrayBlockSize <= (length-1); arrayBlockSize= 2*arrayBlockSize){
+
+            for(int leftStart = 0; leftStart <(length-1); leftStart += 2*arrayBlockSize){
+
+                int mid = Math.min(leftStart+arrayBlockSize-1,length-1);
+
+                int rightEnd = Math.min(leftStart + 2*arrayBlockSize -1,length-1);
+
+                // We have two sorted sub arrays now, each of size 1,2,4,8,... (size 1 array is sorted by definition)
+                // First subarray is arr[leftStart..mid]
+                // Second subarray is arr[mid+1...rightEnd]
+                merge(arr,aux,leftStart,mid,rightEnd);
+            }
+        }
     }
 
     /**
@@ -51,6 +82,24 @@ public class MergeSort<T extends Comparable> implements Sort<T>{
      * merge back an overall sorted array.
       */
     private void merge(T[] arr, SortObject[] aux,int low, int mid, int high){
+
+        logUtils.logI("Merging: low = "+low+" mid = "+mid+" high = "+high);
+
+        String lowToMidArr = "[ ";
+        for(int index = low; index <= mid; index++){
+            lowToMidArr += arr[index] + ", ";
+        }
+        lowToMidArr += "]";
+        logUtils.logI("Low to mid arr: arr["+low+"..."+mid+"]");
+        logUtils.logI(lowToMidArr);
+
+        String midToHighArr = "[ ";
+        for(int index = mid+1; index <= high; index++){
+            midToHighArr += arr[index] + ", ";
+        }
+        midToHighArr += "]";
+        logUtils.logI("Mid+1 to high arr: arr["+(mid+1)+"..."+high+"]");
+        logUtils.logI(midToHighArr);
 
         //aux = Arrays.copyOfRange(arr,low,high);
 
