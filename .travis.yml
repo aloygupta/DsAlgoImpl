@@ -1,6 +1,7 @@
 jdk: 
-  - openjdk8
+  - oraclejdk8
 language: java
 script: 
-  - "./gradlew assemble"
-  - "./gradlew check"
+  - "cd src"
+  - "./gradlew run"
+  - "./gradlew test"
