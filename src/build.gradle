@@ -87,8 +87,8 @@ jacocoTestReport {
         html.enabled = true
     }
 }
-
+// coveralls report path
 coveralls {
-    jacocoReportPath 'build/reports/jacoco/test/index.html'
+    jacocoReportPath 'build/reports/jacoco/test/html/index.html'
 }
 
