@@ -6,6 +6,6 @@ script:
   - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
-  - "./gradlew jacocoTestReport coveralls"
+  - "gradlew jacocoTestReport coveralls --project-cache-dir=../cache"
 notifications:
   email: false
