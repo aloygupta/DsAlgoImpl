@@ -6,3 +6,5 @@ script:
   - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
+notifications:
+  email: false
