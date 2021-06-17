@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/aloygupta/DsAlgoImpl.svg?branch=master)](https://travis-ci.com/aloygupta/DsAlgoImpl)
+
 # Coding Interview University
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
