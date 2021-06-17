@@ -8,3 +8,5 @@ script:
   - "./gradlew test"
 notifications:
   email: false
+- name: Coveralls GitHub Action
+  uses: coverallsapp/github-action@v1.1.2
