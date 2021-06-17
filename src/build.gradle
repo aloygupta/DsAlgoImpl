@@ -7,13 +7,22 @@
  * user guide available at https://docs.gradle.org/2.8/userguide/tutorial_java_projects.html
  */
 // Apply the java plugin to add support for Java
-apply plugin: 'java'
+plugins {
+    id 'jacoco'
+    id 'com.github.kt3k.coveralls' version '2.12.0'
+}
 
+apply plugin: 'java'
 
 sourceSets {
     main {
         java {
-            srcDirs = ["."]
+            srcDirs = ['.']
+        }
+    }
+    test {
+        java {
+            srcDirs = ['..\\tests']
         }
     }
 }
@@ -57,8 +66,8 @@ jar {
 // end::jar[]
 
 // tag::dependencies[]
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 dependencies {
     //compile "joda-time:joda-time:2.2"
@@ -71,3 +80,10 @@ task wrapper(type: Wrapper) {
     gradleVersion = '3.5'
 }
 // end::wrapper[]
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true // coveralls plugin depends on xml format report
+        html.enabled = true
+    }
+}

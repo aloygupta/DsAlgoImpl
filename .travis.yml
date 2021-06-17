@@ -6,5 +6,6 @@ script:
   - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
+  - "./gradlew jacocoTestReport coveralls"
 notifications:
   email: false
