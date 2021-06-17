@@ -3,7 +3,6 @@ jdk:
 language: java
 script: 
   - "cd src"
-  - "COVERALLS_REPO_TOKEN=f4Ez1baiH7DNTEhAB3wNSo7zWzkg0bT84"
   - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
