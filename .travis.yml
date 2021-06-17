@@ -1,7 +1,8 @@
 jdk: 
-  - openjdk8
+  - oraclejdk8
 language: java
 script: 
   - "cd src"
+  - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
