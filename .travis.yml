@@ -3,6 +3,7 @@ jdk:
 language: java
 script: 
   - "cd src"
+  - "mkdir build/reports/jacoco/test/html"
   - "chmod +x gradlew"
   - "./gradlew run"
   - "./gradlew test"
