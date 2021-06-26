@@ -1,4 +1,4 @@
-package sort;
+package sort.implementation;
 
 import sort.Sort;
 

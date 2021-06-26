@@ -1,5 +1,5 @@
 import sort.Sort;
-import sort.BubbleSort;
+import sort.implementation.BubbleSort;
 
 import java.util.ArrayList;
 import java.util.List;

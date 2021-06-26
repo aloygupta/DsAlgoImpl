@@ -16,6 +16,7 @@ public class ArrayHeap<T extends Comparable<T>> implements heap.Heap<T> {
 
     public ArrayHeap(){
         this.size = 0;
+        // TODO: Switch to Array impleentation instead of Vector
         this.array = new VectorImplementation<>();
     }
 

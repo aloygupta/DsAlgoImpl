@@ -1,5 +1,5 @@
 import sort.Sort;
-import sort.InsertionSort;
+import sort.implementation.InsertionSort;
 
 import java.util.ArrayList;
 import java.util.List;

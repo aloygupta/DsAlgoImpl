@@ -1,8 +1,10 @@
-package sort;
+package sort.implementation;
 
 import logging.LogUtils;
+import sort.Sort;
+import sort.SortObject;
 
-public class MergeSort<T extends Comparable> implements Sort<T>{
+public class MergeSort<T extends Comparable> implements Sort<T> {
 
     private LogUtils logUtils = new LogUtils(MergeSort.class.getSimpleName(),true);
     private T[] arrayToSort;
