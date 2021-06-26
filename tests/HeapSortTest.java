@@ -1,20 +1,22 @@
-import sort.implementation.SelectionSort;
 import sort.Sort;
+import sort.implementation.HeapSort;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SelectionSortTest extends SortTestBase {
+public class HeapSortTest<T extends Comparable> extends SortTestBase {
+
+
     @Override
     Sort<Integer> getTestSortObj(Integer[] values) {
-        Sort<Integer> testSortObj = new SelectionSort<>(values);
+        Sort<Integer> testSortObj = new HeapSort<>(values);
         return testSortObj;
     }
 
     @Override
     List<Sort.STRATEGY> getStrategyList() {
         List<Sort.STRATEGY> strategyList = new ArrayList<>();
-        strategyList.add(Sort.STRATEGY.SELECTIONSORT_BOTTOMUP_ITERATIVE);
+        strategyList.add(Sort.STRATEGY.HEAPSORT_BOTTOMUP_ITERATIVE);
         return strategyList;
     }
 }

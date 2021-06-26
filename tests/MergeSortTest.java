@@ -1,5 +1,5 @@
 import sort.Sort;
-import sort.MergeSort;
+import sort.implementation.MergeSort;
 
 import java.util.ArrayList;
 import java.util.List;
