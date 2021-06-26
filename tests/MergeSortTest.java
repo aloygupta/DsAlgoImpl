@@ -1,6 +1,5 @@
-import logging.LogUtils;
 import sort.Sort;
-import sort.mergesort.MergeSort;
+import sort.MergeSort;
 
 import java.util.ArrayList;
 import java.util.List;

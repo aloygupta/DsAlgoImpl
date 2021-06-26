@@ -1,8 +1,6 @@
-package sort.mergesort;
+package sort;
 
 import logging.LogUtils;
-import sort.Sort;
-import sort.SortObject;
 
 public class MergeSort<T extends Comparable> implements Sort<T>{
 

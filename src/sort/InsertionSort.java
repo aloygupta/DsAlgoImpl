@@ -1,4 +1,4 @@
-package sort.insertionsort;
+package sort;
 
 import sort.Sort;
 
