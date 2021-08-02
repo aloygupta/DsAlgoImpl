@@ -2,6 +2,8 @@ package sort.implementation;
 
 import sort.Sort;
 
+import java.util.Arrays;
+
 public class QuickSort<T extends Comparable> implements Sort<T> {
 
     private T[] arrayToSort;
@@ -114,6 +116,36 @@ public class QuickSort<T extends Comparable> implements Sort<T> {
         }
 
         return leftPointer;
+    }
+
+    /**
+     * After one partition pass, the index which gets assigned as pivotIndex, that element has found its rightful place in array.
+     * In a sorted array, kth smallest element is arr[k]
+     * So, when a pivot is same as k, it means, that the kth smallest element will reside at arr[k], even if the overall sorted at this point might be unsorted.
+     * In worst case, it might lead to a full sorting of array, and then obviously arr[k] is the kth smallest element.
+     *
+     * Time Complexity: O(n) on avg.
+     */
+    public T getKthShortestElement(int k){
+
+        int low = 0;
+        int high = arrayToSort.length -1;
+
+        while(high > low){
+            int pivotIndex = partitionFirstElement(arrayToSort,low,high);
+            //System.out.println(Arrays.toString(arrayToSort));
+            //System.out.println("pivotIndex "+pivotIndex);
+            if(pivotIndex < k){
+                low = pivotIndex +1;
+            }
+            else if(pivotIndex > k){
+                high = pivotIndex -1;
+            }
+            else
+                return arrayToSort[k];
+        }
+
+        return arrayToSort[k];
     }
 
     private void swap(T[] arr,int index1, int index2){
