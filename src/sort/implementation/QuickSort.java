@@ -14,6 +14,9 @@ public class QuickSort<T extends Comparable> implements Sort<T> {
     public QuickSort(T[] arrayToSort){
         this.arrayToSort = arrayToSort;
         //TODO: Random shuffle to improve efficiency
+        //TODO: Make quicksort stable
+        // TODO: Make it Djikstra's 3-way partitioning to speed up for duplicates (https://www.coursera.org/lecture/algorithms-part1/duplicate-keys-XvjPd)
+
     }
 
     @Override
