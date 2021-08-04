@@ -14,11 +14,11 @@ If there's an edge between two nodes i and j, then array[ i ] [ j ] = 1 else 0
 
 For undirected graphs, this is also symmetric. Bad to represent sparse graphs as most boxes would be filled with zeroes.
 
-![Undirected Graph Adjacency Matrix](images/undirected_graph1_adjacency_matrix.jpg?raw=true "Undirected Graph Adjacency Matrix")
+![Undirected Graph Adjacency Matrix](images/undirected_graph1_adjacency_matrix.JPG?raw=true "Undirected Graph Adjacency Matrix")
 
 #### Adjacency List representation
 
-![Undirected Graph Adjacency List](images/undirected_graph1_adjacency_list.jpg?raw=true "Undirected Graph Adjacency List")
+![Undirected Graph Adjacency List](images/undirected_graph1_adjacency_list.JPG?raw=true "Undirected Graph Adjacency List")
 
 #### Edge List representation
 
