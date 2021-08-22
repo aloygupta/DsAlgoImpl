@@ -39,7 +39,7 @@ dependencies {
     // TestNG is also supported by the Gradle Test task. Just change the
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
 
@@ -68,14 +68,14 @@ targetCompatibility = 1.8
 
 dependencies {
     //compile "joda-time:joda-time:2.2"
-    testCompile "junit:junit:4.12"
+    testImplementation "junit:junit:4.12"
 }
 // end::dependencies[]
 
 // tag::wrapper[]
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
-}
+/*task wrapper(type: Wrapper) {
+    gradleVersion = '7.0'
+}*/
 // end::wrapper[]
 jacocoTestReport {
     reports {
