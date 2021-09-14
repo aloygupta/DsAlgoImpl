@@ -37,7 +37,7 @@ public class Vertex<T extends Comparable<T>> implements Comparable<Vertex<T>>{
         if(obj instanceof Vertex){
 
             Vertex otherNode = (Vertex<T>)obj;
-            if(this.compareTo(otherNode) == 0)
+            if((this.id == otherNode.id))
                 return true;
         }
         return false;

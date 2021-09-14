@@ -5,8 +5,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
-
 public class DirectedGraphTest {
 
     //https://www.log2base2.com/data-structures/graph/adjacency-list-representation-of-graph.html
@@ -140,15 +138,57 @@ public class DirectedGraphTest {
 
     @Test
     public void testGetVertexValue() {
-        Assert.assertEquals(Integer.valueOf(4),graph.getVertexValue(new Vertex(4)));
-        Assert.assertEquals("Java",graph.getVertexValue(new Vertex("Java")));
+       testAddEdge();
+       Assert.assertEquals(Integer.valueOf(3),graph.getVertexValue(new Vertex(3)));
+        Assert.assertEquals("(0) -> (1) ; (2) ; (3)\n" +
+                "(1) -> (3) ; (4)\n" +
+                "(2) -> (3)\n" +
+                "(3) -> (4)\n" +
+                "(4)",graph.toString());
     }
 
     @Test
     public void testSetVertexValue() {
-        Vertex<Integer> vertex = new Vertex<Integer>(4);
-        Assert.assertEquals(Integer.valueOf(4),graph.getVertexValue(vertex));
-        graph.setVertexValue(vertex,Integer.valueOf(3));
-        Assert.assertEquals(Integer.valueOf(3),graph.getVertexValue(vertex));
+        testAddEdge();
+        // Setting vertex with id "3" to value 6
+        graph.setVertexValue(new Vertex(3),Integer.valueOf(6));
+        Assert.assertEquals("(0) -> (1) ; (2) ; (6)\n" +
+                "(1) -> (6) ; (4)\n" +
+                "(2) -> (6)\n" +
+                "(6) -> (4)\n" +
+                "(4)",graph.toString());
+
+        // ID of vertex with value 6 is still "3". Resetting it to original value 3.
+        graph.setVertexValue(new Vertex(3),Integer.valueOf(3));
+        Assert.assertEquals("(0) -> (1) ; (2) ; (3)\n" +
+                "(1) -> (3) ; (4)\n" +
+                "(2) -> (3)\n" +
+                "(3) -> (4)\n" +
+                "(4)",graph.toString());
+
+    }
+
+    @Test
+    public void testEquals(){
+        testAddEdge();
+
+        Graph<Integer> anotherGraph = new DirectedGraph<>();
+
+        anotherGraph.addVertex(new Vertex(3));
+        anotherGraph.addVertex(new Vertex(4));
+        anotherGraph.addVertex(new Vertex(0));
+        anotherGraph.addVertex(new Vertex(1));
+        anotherGraph.addVertex(new Vertex(2));
+
+        anotherGraph.addEdge(new Vertex(1),new Vertex(4));
+        anotherGraph.addEdge(new Vertex(0),new Vertex(3));
+        anotherGraph.addEdge(new Vertex(2),new Vertex(3));
+        anotherGraph.addEdge(new Vertex(0),new Vertex(1));
+        anotherGraph.addEdge(new Vertex(0),new Vertex(2));
+        anotherGraph.addEdge(new Vertex(3),new Vertex(4));
+        anotherGraph.addEdge(new Vertex(1),new Vertex(3));
+
+        Assert.assertEquals(true,graph.equals(anotherGraph));
+
     }
 }
