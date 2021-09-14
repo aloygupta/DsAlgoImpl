@@ -53,7 +53,12 @@ public abstract class AbstractGraph<T extends Comparable<T>> implements Graph<T>
     }
 
     @Override
-    public List<Vertex> breadthFirstSearch() {
+    public List<Vertex> breadthFirstSearch(Vertex startVertex) {
+        return null;
+    }
+
+    @Override
+    public List<Vertex> depthFirstSearch(Vertex startVertex) {
         return null;
     }
 }
