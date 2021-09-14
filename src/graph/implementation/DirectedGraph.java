@@ -91,23 +91,99 @@ public class DirectedGraph<T extends Comparable> extends AbstractGraph{
 
     @Override
     public T getVertexValue(Vertex vertex) {
-        return (T) vertex.getValue();
-    }
+        Iterator hmIterator = adjacentVerticesMap.entrySet().iterator();
+        while (hmIterator.hasNext()) {
+            Map.Entry mapElement = (Map.Entry) hmIterator.next();
 
-    @Override
-    public void setVertexValue(Vertex vertex, Comparable value) {
-        vertex.setValue(value);
-    }
+            if (mapElement.getKey().equals(vertex)) {
+                // return value of matched vertex
+                return (T)((Vertex)mapElement.getKey()).getValue();
+            }
+        }
 
-    /* @Override
-    public T getEdgeValue(Vertex vertex1, Vertex vertex2) {
         return null;
     }
 
     @Override
-    public void setEdgeValue(Vertex vertex1, Vertex vertex2, T value) {
+    public void setVertexValue(Vertex vertex, Comparable value) {
+        Iterator hmIterator = adjacentVerticesMap.entrySet().iterator();
 
-    }*/
+        // Iterate through the hashmap. Since we use LinkedHashmap, it will return in order of insertion.
+
+        while (hmIterator.hasNext()) {
+            Map.Entry mapElement = (Map.Entry)hmIterator.next();
+
+            if(mapElement.getKey().equals(vertex)){
+                // remove mapping and insert new one
+                List<Vertex> adjacentVertices = (List<Vertex>) adjacentVerticesMap.get(mapElement.getKey());
+                adjacentVerticesMap.remove(mapElement.getKey());
+                vertex.setValue(value);
+                adjacentVerticesMap.put(vertex,adjacentVertices);
+            }
+            else{
+                // remove all edges incident on the vertexToRemove, by going through each vertex's outbound edge list
+                List<Vertex> list = (List<Vertex>)mapElement.getValue();
+
+                int size = list.size();
+                for(int i=0; i<size; i++){
+                    Vertex listVertexElement = list.get(i);
+                    if(listVertexElement.equals(vertex)){
+                        listVertexElement.setValue(value);
+                    }
+                }
+            }
+        }
+    }
+
+    @Override
+    public List<Vertex> breadthFirstSearch() {
+        return super.breadthFirstSearch();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof DirectedGraph == false)
+            return false;
+
+        DirectedGraph otherGraph = (DirectedGraph) obj;
+
+        if(!adjacentVerticesMap.keySet().equals(otherGraph.adjacentVerticesMap.keySet()))
+            return false;
+
+        boolean isEqual = true;
+        // Iterate through the hashmap. Since we use LinkedHashmap, it will return in order of insertion.
+
+        Iterator iterator1 = adjacentVerticesMap.values().iterator();
+        Iterator iterator2 = otherGraph.adjacentVerticesMap.values().iterator();
+
+
+
+        Iterator hmIterator = adjacentVerticesMap.entrySet().iterator();
+        while (hmIterator.hasNext()) {
+            Map.Entry mapElement = (Map.Entry) hmIterator.next();
+            Vertex thisVertex = (Vertex) mapElement.getKey();
+
+            List<Vertex> thisVertexAdjacentList = (List<Vertex>) mapElement.getValue();
+
+            List<Vertex> otherVertexAdjacentList = (List<Vertex>) otherGraph.adjacentVerticesMap.get(thisVertex);
+
+            isEqual = areTwoAdjacentListEqual(thisVertexAdjacentList,otherVertexAdjacentList);
+        }
+
+        return isEqual;
+    }
+
+    private boolean areTwoAdjacentListEqual(List<Vertex> thisVertexAdjacentList, List<Vertex> otherVertexAdjacentList) {
+        if (thisVertexAdjacentList.size() != otherVertexAdjacentList.size())
+            return false;
+
+        for (Vertex vertex : thisVertexAdjacentList) {
+            if (!otherVertexAdjacentList.contains(vertex)) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     @Override
     public String toString() {

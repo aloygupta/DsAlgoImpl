@@ -6,10 +6,11 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public abstract class AbstractGraph<T extends Comparable<T>> implements Graph<T> {
 
-    protected Map<Vertex<T>, List<Vertex<T>>> adjacentVerticesMap = new LinkedHashMap<>();
+    protected Map<Vertex<T>, List<Vertex<T>>> adjacentVerticesMap = new ConcurrentHashMap<>();
 
     @Override
     public boolean addVertex(Vertex vertex) {
@@ -49,5 +50,10 @@ public abstract class AbstractGraph<T extends Comparable<T>> implements Graph<T>
     @Override
     public void setVertexValue(Vertex vertex, T value) {
 
+    }
+
+    @Override
+    public List<Vertex> breadthFirstSearch() {
+        return null;
     }
 }

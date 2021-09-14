@@ -29,6 +29,9 @@ public interface Graph<T extends Comparable> {
     // sets the value associated with the vertex x to v
     void setVertexValue(Vertex vertex, T value);
 
+    // perform breadth first search on the graph and return the traversal as a list of vertex, in the order traversed.
+    List<Vertex> breadthFirstSearch();
+
 
     // Weighted Graph
     // returns the value associated with the edge (x, y)
