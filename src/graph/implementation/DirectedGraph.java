@@ -1,9 +1,7 @@
 package graph.implementation;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class DirectedGraph<T extends Comparable> extends AbstractGraph{
 
@@ -136,8 +134,63 @@ public class DirectedGraph<T extends Comparable> extends AbstractGraph{
     }
 
     @Override
-    public List<Vertex> breadthFirstSearch() {
-        return super.breadthFirstSearch();
+    public List<Vertex> breadthFirstSearch(Vertex startVertex) {
+        List<Vertex> vertexTraversalList = new ArrayList<>();
+
+        // Mark all vertices as not visited
+        Map<Vertex, Boolean> visited = new ConcurrentHashMap<>();
+
+        // Create a Queue for performing BFS
+        LinkedList<Vertex> queue = new LinkedList<>();
+
+        // Mark the starting node as visited. Also enqueue it.
+        visited.put(startVertex,true);
+        queue.add(startVertex);
+
+        while (queue.size() != 0){
+            Vertex dequeuedVertex = queue.poll();
+
+            // Add to traversal list
+            vertexTraversalList.add(dequeuedVertex);
+            List<Vertex> neighbors = neighbors(dequeuedVertex);
+
+            for(Vertex neighbor: neighbors){
+                if(visited.get(neighbor) == null){
+                    visited.put(neighbor,true);
+                    queue.add(neighbor);
+                }
+            }
+        }
+        return vertexTraversalList;
+    }
+
+    @Override
+    public List<Vertex> depthFirstSearch(Vertex startVertex) {
+        List<Vertex> vertexTraversalList = new ArrayList<>();
+
+        // Mark all vertices as not visited
+        Map<Vertex, Boolean> visited = new ConcurrentHashMap<>();
+
+        Stack<Vertex> stack = new Stack<>();
+        stack.push(startVertex);
+
+        while (!stack.isEmpty()){
+            Vertex poppedVertex = stack.pop();
+
+            if(visited.get(poppedVertex) == null){
+                visited.put(poppedVertex,true);
+                vertexTraversalList.add(poppedVertex);
+            }
+
+            List<Vertex> neighbors = neighbors(poppedVertex);
+            for(Vertex neighbor: neighbors){
+                if(visited.get(neighbor) == null){
+                    stack.push(neighbor);
+                }
+            }
+        }
+
+        return vertexTraversalList;
     }
 
     @Override
@@ -151,12 +204,6 @@ public class DirectedGraph<T extends Comparable> extends AbstractGraph{
             return false;
 
         boolean isEqual = true;
-        // Iterate through the hashmap. Since we use LinkedHashmap, it will return in order of insertion.
-
-        Iterator iterator1 = adjacentVerticesMap.values().iterator();
-        Iterator iterator2 = otherGraph.adjacentVerticesMap.values().iterator();
-
-
 
         Iterator hmIterator = adjacentVerticesMap.entrySet().iterator();
         while (hmIterator.hasNext()) {
