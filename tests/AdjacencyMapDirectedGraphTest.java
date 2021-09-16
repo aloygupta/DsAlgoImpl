@@ -1,18 +1,18 @@
-import graph.Graph;
-import graph.implementation.DirectedGraph;
+import graph.AdjacencyMapGraph;
+import graph.implementation.AdjacencyMapDirectedGraph;
 import graph.implementation.Vertex;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class DirectedGraphTest {
+public class AdjacencyMapDirectedGraphTest {
 
     //https://www.log2base2.com/data-structures/graph/adjacency-list-representation-of-graph.html
-    Graph<Integer> graph;
+    AdjacencyMapGraph<Integer> graph;
 
     @Before
     public void setUp(){
-        graph = new DirectedGraph<>();
+        graph = new AdjacencyMapDirectedGraph<>();
 
       /*  graph.addVertex(new Vertex(0));
         graph.addVertex(new Vertex(1));
@@ -172,7 +172,7 @@ public class DirectedGraphTest {
     public void testEquals(){
         testAddEdge();
 
-        Graph<Integer> anotherGraph = new DirectedGraph<>();
+        AdjacencyMapGraph<Integer> anotherGraph = new AdjacencyMapDirectedGraph<>();
 
         anotherGraph.addVertex(new Vertex(3));
         anotherGraph.addVertex(new Vertex(4));

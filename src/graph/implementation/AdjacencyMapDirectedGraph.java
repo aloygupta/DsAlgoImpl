@@ -5,9 +5,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-public class DirectedGraph<T extends Comparable> extends AbstractGraph{
+public class AdjacencyMapDirectedGraph<T extends Comparable> extends AdjacencyMapAbstractGraph {
 
-    public DirectedGraph(){
+    public AdjacencyMapDirectedGraph(){
 
     }
 
@@ -142,21 +142,15 @@ public class DirectedGraph<T extends Comparable> extends AbstractGraph{
 
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof DirectedGraph == false)
+        if(obj instanceof AdjacencyMapDirectedGraph == false)
             return false;
 
-        DirectedGraph otherGraph = (DirectedGraph) obj;
+        AdjacencyMapDirectedGraph otherGraph = (AdjacencyMapDirectedGraph) obj;
 
         if(!adjacentVerticesMap.keySet().equals(otherGraph.adjacentVerticesMap.keySet()))
             return false;
 
         boolean isEqual = true;
-        // Iterate through the hashmap. Since we use LinkedHashmap, it will return in order of insertion.
-
-        Iterator iterator1 = adjacentVerticesMap.values().iterator();
-        Iterator iterator2 = otherGraph.adjacentVerticesMap.values().iterator();
-
-
 
         Iterator hmIterator = adjacentVerticesMap.entrySet().iterator();
         while (hmIterator.hasNext()) {

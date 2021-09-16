@@ -4,33 +4,34 @@ import graph.implementation.Vertex;
 
 import java.util.List;
 
-public interface Graph<T extends Comparable> {
+public interface MatrixGraph {
 
-    boolean addVertex(Vertex vertex);
+    boolean addVertex();
 
     // removes vertex, if it is there
-    boolean removeVertex(Vertex vertexToRemove);
+    boolean removeVertex(int vertexToRemove);
 
     // adds the edge from the vertex x to the vertex y, if it is not there
-    boolean addEdge(Vertex vertex1, Vertex vertex2);
+    boolean addEdge(int vertex1, int vertex2);
 
     // removes the edge from the vertex x to the vertex y, if it is there
-    boolean removeEdge(Vertex vertex1, Vertex vertex2);
+    boolean removeEdge(int vertex1, int vertex2);
 
     // tests whether there is an edge from the vertex x to the vertex y
-    boolean isAdjacent(Vertex vertex1, Vertex vertex2);
+    boolean isAdjacent(int vertex1, int vertex2);
 
     // lists all vertices y such that there is an edge from the vertex x to the vertex y
-    List<Vertex> neighbors(Vertex vertex);
+    List<Integer> neighbors(int vertex);
 
-    // returns the value associated with the vertex x
-    T getVertexValue(Vertex vertex);
+    // In Matrix representation, a separate mapping somewhere would be present. So, comment out below two functions
+    /*// returns the value associated with the vertex x
+    T getVertexValue(int vertex);
 
     // sets the value associated with the vertex x to v
-    void setVertexValue(Vertex vertex, T value);
+    void setVertexValue(int vertex, T value);*/
 
     // perform breadth first search on the graph and return the traversal as a list of vertex, in the order traversed.
-    List<Vertex> breadthFirstSearch();
+    List<Integer> breadthFirstSearch();
 
 
     // Weighted Graph
@@ -39,5 +40,4 @@ public interface Graph<T extends Comparable> {
 
     // sets the value associated with the edge (x, y) to v
     void setEdgeValue(Vertex vertex1, Vertex vertex2, T value);*/
-
 }

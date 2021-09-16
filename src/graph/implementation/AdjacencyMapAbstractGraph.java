@@ -1,14 +1,12 @@
 package graph.implementation;
 
-import graph.Graph;
+import graph.AdjacencyMapGraph;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public abstract class AbstractGraph<T extends Comparable<T>> implements Graph<T> {
+public abstract class AdjacencyMapAbstractGraph<T extends Comparable<T>> implements AdjacencyMapGraph<T> {
 
     protected Map<Vertex<T>, List<Vertex<T>>> adjacentVerticesMap = new ConcurrentHashMap<>();
 
