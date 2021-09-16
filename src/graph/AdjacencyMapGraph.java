@@ -30,7 +30,10 @@ public interface AdjacencyMapGraph<T extends Comparable> {
     void setVertexValue(Vertex vertex, T value);
 
     // perform breadth first search on the graph and return the traversal as a list of vertex, in the order traversed.
-    List<Vertex> breadthFirstSearch();
+    List<Vertex> breadthFirstSearch(Vertex startVertex);
+
+    // perform depth first search on the graph and return the traversal as a list of vertex, in the order traversed.
+    List<Vertex> depthFirstSearch(Vertex startVertex);
 
 
     // Weighted Graph
