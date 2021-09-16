@@ -3,9 +3,9 @@ package graph.implementation;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class DirectedGraph<T extends Comparable> extends AbstractGraph{
+public class AdjacencyMapDirectedGraph<T extends Comparable> extends AdjacencyMapAbstractGraph {
 
-    public DirectedGraph(){
+    public AdjacencyMapDirectedGraph(){
 
     }
 
@@ -195,10 +195,10 @@ public class DirectedGraph<T extends Comparable> extends AbstractGraph{
 
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof DirectedGraph == false)
+        if(obj instanceof AdjacencyMapDirectedGraph == false)
             return false;
 
-        DirectedGraph otherGraph = (DirectedGraph) obj;
+        AdjacencyMapDirectedGraph otherGraph = (AdjacencyMapDirectedGraph) obj;
 
         if(!adjacentVerticesMap.keySet().equals(otherGraph.adjacentVerticesMap.keySet()))
             return false;

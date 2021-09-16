@@ -4,7 +4,7 @@ import graph.implementation.Vertex;
 
 import java.util.List;
 
-public interface Graph<T extends Comparable> {
+public interface AdjacencyMapGraph<T extends Comparable> {
 
     boolean addVertex(Vertex vertex);
 
