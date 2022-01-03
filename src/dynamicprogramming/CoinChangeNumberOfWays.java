@@ -47,7 +47,7 @@ public class CoinChangeNumberOfWays {
                     DP[coin][partialAmount] = DP[prevCoin][partialAmount];
                 }
                 else{
-                    // how many ways (n-1) number of coins can reach desired amount + how many ways n coins can reach n amount
+                    // how many ways 1..(n-1) denominations can reach desired amount + how many ways 1..n denominations can reach (amount - n)
                     DP[coin][partialAmount] = DP[prevCoin][partialAmount] + DP[coin][partialAmount-coin];
                 }
             }
