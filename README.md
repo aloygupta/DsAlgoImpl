@@ -443,41 +443,58 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
   - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying
   
   - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+    
     - This is a short book, but it will give you a great handle on the C language and if you practice it a little
         you'll quickly get proficient. Understanding C helps you understand how programs and memory work
     - [Answers to questions](https://github.com/lekkas/c-algorithms)
 
 - [x] **How computers process a program:**
   
-  - [x] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-  - [x] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-  - [x] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-  - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-  - [x] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+  - [x] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA) :white_check_mark:
+  - [x] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA) :white_check_mark:
+  - [x] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU) :white_check_mark:
+  - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60) :white_check_mark:
+  - [x] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k) :white_check_mark:
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
 - Nothing to implement
+
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review
+
 - If some lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge
 
-- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4) :white_check_mark:
+
+- [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU) :white_check_mark:
+
+- [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) :white_check_mark:
+
 - [ ] Skiena:
+  
   - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
   - [slides](https://archive.org/details/lecture2_202008)
-- [x] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [x] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [x] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
-- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+
+- [x] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/) :white_check_mark:
+
+- [x] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX) :white_check_mark:
+
+- [x] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM) :white_check_mark:
+
+- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98) :white_check_mark:
+
 - [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
-- [x] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [x] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+
+- [x] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) :white_check_mark:
+
+- [x] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv) :white_check_mark:
+
 - [ ] TopCoder (includes recurrence relations and master theorem):
+  
   - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
   - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [x] [Cheat sheet](http://bigocheatsheet.com/)
+
+- [x] [Cheat sheet](http://bigocheatsheet.com/) :white_check_mark:
 
 ## Data Structures
 
@@ -487,44 +504,44 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
   
   - [x] Description:
     
-    - [x] [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-    - [x] [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-    - [x] [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-    - [x] Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [x] [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF) :white_check_mark:
+    - [x] [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s) :white_check_mark:
+    - [x] [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV) :white_check_mark:
+    - [x] Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) :white_check_mark:
   
   - [ ] Implement a vector (mutable array with automatic resizing):
     
     - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
     
-    - [x] New raw data array with allocated memory
+    - [x] New raw data array with allocated memory :white_check_mark:
       
-      - [x] can allocate int array under the hood, just not use its features
+      - [x] can allocate int array under the hood, just not use its features :white_check_mark:
       
       - [ ] start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
     
-    - [x] size() - number of items
+    - [x] size() - number of items :white_check_mark:
     
-    - [x] capacity() - number of items it can hold
+    - [x] capacity() - number of items it can hold :white_check_mark:
     
-    - [x] is_empty()
+    - [x] is_empty() :white_check_mark:
     
-    - [x] at(index) - returns item at given index, blows up if index out of bounds
+    - [x] at(index) - returns item at given index, blows up if index out of bounds :white_check_mark:
     
-    - [x] push(item)
+    - [x] push(item) :white_check_mark:
     
-    - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+    - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right :white_check_mark:
     
-    - [x] prepend(item) - can use insert above at index 0
+    - [x] prepend(item) - can use insert above at index 0 :white_check_mark:
     
-    - [x] pop() - remove from end, return value
+    - [x] pop() - remove from end, return value :white_check_mark:
     
-    - [x] delete(index) - delete item at index, shifting all trailing elements left
+    - [x] delete(index) - delete item at index, shifting all trailing elements left :white_check_mark:
     
-    - [x] remove(item) - looks for value and removes index holding it (even if in multiple places)
+    - [x] remove(item) - looks for value and removes index holding it (even if in multiple places) :white_check_mark:
     
-    - [x] find(item) - looks for value and returns first index with that value, -1 if not found
+    - [x] find(item) - looks for value and returns first index with that value, -1 if not found :white_check_mark:
     
-    - [x] resize(new_capacity) // private function
+    - [x] resize(new_capacity) // private function :white_check_mark:
       
       - when you reach capacity, resize to double the size
       - when popping an item, if size is 1/4 of capacity, resize to half
@@ -532,74 +549,85 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
   - [ ] Time
     
     - [ ] O(1) to add/remove at end (amortized for allocations for more space), index, or update
-    - [x] O(n) to insert/remove elsewhere
+    - [x] O(n) to insert/remove elsewhere :white_check_mark:
   
   - [x] Space
     
-    - [x] contiguous in memory, so proximity helps performance
-    - [x] space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+    - [x] contiguous in memory, so proximity helps performance :white_check_mark:
+    - [x] space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n) :white_check_mark:
 
 - ### Linked Lists
   
   - [x] Description:
-    - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
-    - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-    - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-  - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+    
+    - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK) :white_check_mark:
+    - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0) :white_check_mark:
+    - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w) :white_check_mark:
+  
+  - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) :white_check_mark:
     
           - not the whole video, just portions about Node struct and memory allocation
+  
   - [x] Linked List vs Arrays:
-    - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-    - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    
+    - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9) :white_check_mark:
+    - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd) :white_check_mark:
+  
   - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+  
   - [ ] Gotcha: you need pointer to pointer knowledge:
       (for when you pass a pointer to a function that may change the address where that pointer points)
       This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    
     - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+  
   - [x] Implement (I did with tail pointer & without):
-    - [x] size() - returns number of data elements in list
-    - [x] empty() - bool returns true if empty
-    - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
-    - [x] push_front(value) - adds an item to the front of the list
-    - [x] pop_front() - remove front item and return its value
-    - [x] push_back(value) - adds an item at the end
-    - [x] pop_back() - removes end item and returns its value
-    - [x] front() - get value of front item
-    - [x] back() - get value of end item
-    - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-    - [x] erase(index) - removes node at given index
-    - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-    - [x] reverse() - reverses the list
-    - [x] remove_value(value) - removes the first item in the list with this value
+    
+    - [x] size() - returns number of data elements in list :white_check_mark:
+    - [x] empty() - bool returns true if empty :white_check_mark:
+    - [x] value_at(index) - returns the value of the nth item (starting at 0 for first) :white_check_mark:
+    - [x] push_front(value) - adds an item to the front of the list :white_check_mark:
+    - [x] pop_front() - remove front item and return its value :white_check_mark:
+    - [x] push_back(value) - adds an item at the end :white_check_mark:
+    - [x] pop_back() - removes end item and returns its value :white_check_mark:
+    - [x] front() - get value of front item :white_check_mark:
+    - [x] back() - get value of end item :white_check_mark:
+    - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index :white_check_mark:
+    - [x] erase(index) - removes node at given index :white_check_mark:
+    - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list :white_check_mark:
+    - [x] reverse() - reverses the list :white_check_mark:
+    - [x] remove_value(value) - removes the first item in the list with this value :white_check_mark:
+  
   - [x] Doubly-linked List
-    - [x] [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+    
+    - [x] [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD) :white_check_mark:
     - [ ] ~~No~~ need to implement
 
 - ### Stack
   
-  - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-  - [x] Will ~~not~~ implement. Implementing with array ~~is trivial~~
+  - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ) :white_check_mark:
+  - [x] Will ~~not~~ implement. Implementing with array ~~is trivial~~ :white_check_mark:
 
 - ### Queue
   
-  - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq) :white_check_mark:
   
-  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer) :white_check_mark:
   
   - [x] Implement using linked-list, with tail pointer:
     
-    - [x] enqueue(value) - adds value at position at tail
-    - [x] dequeue() - returns value and removes least recently added element (front)
-    - [x] empty()
+    - [x] enqueue(value) - adds value at position at tail :white_check_mark:
+    - [x] dequeue() - returns value and removes least recently added element (front) :white_check_mark:
+    - [x] empty() :white_check_mark:
   
   - [x] Implement using fixed-sized array:
     
-    - [x] enqueue(value) - adds item at end of available storage
-    - [x] dequeue() - returns value and removes least recently added element
-    - [x] empty()
-    - [x] full()
+    - [x] enqueue(value) - adds item at end of available storage :white_check_mark:
+    - [x] dequeue() - returns value and removes least recently added element :white_check_mark:
+    - [x] empty() :white_check_mark:
+    - [x] full() :white_check_mark:
   
-  - [x] Cost:
+  - [x] Cost: :white_check_mark:
     
     - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
         because you'd need the next to last element, causing a full traversal each dequeue
@@ -617,36 +645,36 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
   
   - [ ] Videos:
     
-    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-    - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [x] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [x] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8) :white_check_mark:
+    - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) :white_check_mark:
+    - [x] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) :white_check_mark:
+    - [x] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68) :white_check_mark:
     - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
     - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
   
   - [ ] Online Courses:
     
-    - [x] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
-    - [x] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
-    - [x] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+    - [x] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP) :white_check_mark:
+    - [x] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4) :white_check_mark:
+    - [x] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP) :white_check_mark:
     - [ ] distributed hash tables:
       - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
       - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
   
   - [x] Implement with array using linear probing
     
-    - [x] hash(k, m) - m is size of hash table
-    - [x] add(key, value) - if key already exists, update value
-    - [x] exists(key)
-    - [x] get(key)
-    - [x] remove(key)
+    - [x] hash(k, m) - m is size of hash table :white_check_mark:
+    - [x] add(key, value) - if key already exists, update value :white_check_mark:
+    - [x] exists(key) :white_check_mark:
+    - [x] get(key) :white_check_mark:
+    - [x] remove(key) :white_check_mark:
 
 ## More Knowledge
 
 - ### Binary search
   
-  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-  - [x] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno) :white_check_mark:
+  - [x] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search) :white_check_mark:
   - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
   - [ ] Implement:
     - binary search (on sorted array of integers)
@@ -658,8 +686,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
   - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
     - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
     - [x] Good intro:
-        [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-    - [x] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I) :white_check_mark:
+    - [x] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0) :white_check_mark:
     - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
     - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
     - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
@@ -668,7 +696,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
     - [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
   - [ ] 2s and 1s complement
-    - [x] [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+    - [x] [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4) :white_check_mark:
     - [ ] [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
     - [ ] [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
   - [ ] Count set bits
@@ -684,16 +712,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Trees - Notes & Background
   
-  - [x] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-  - [x] basic tree construction
-  - [x] traversal
-  - [x] manipulation algorithms
-  - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-    - [x] BFS notes:
+  - [x] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda) :white_check_mark:
+  - [x] basic tree construction :white_check_mark:
+  - [x] traversal :white_check_mark:
+  - [x] manipulation algorithms :white_check_mark:
+  - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM) :white_check_mark:
+    - [x] BFS notes: :white_check_mark:
       - level order (BFS, using queue)
       - time complexity: O(n)
       - space complexity: best: O(1), worst: O(n/2)=O(n)
-    - [x] DFS notes:
+    - [x] DFS notes: :white_check_mark:
       - time complexity: O(n)
       - space complexity:
           best: O(log n) - avg. height of tree
@@ -704,119 +732,165 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Binary search trees: BSTs
   
-  - [x] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)    
-  - [x] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+  - [x] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6) :white_check_mark:    
+  
+  - [x] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction) :white_check_mark:
+  
   - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
   
   - C/C++:
-    - [x] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-    - [x] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-    - [x] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [x] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-    - [x] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-    - [x] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [x] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [x] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [x] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-    - [x] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    
+    - [x] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28) :white_check_mark:
+    - [x] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29) :white_check_mark:
+    - [x] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) :white_check_mark:
+    - [x] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31) :white_check_mark:
+    - [x] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32) :white_check_mark:
+    - [x] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) :white_check_mark:
+    - [x] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) :white_check_mark:
+    - [x] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) :white_check_mark:
+    - [x] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36) :white_check_mark:
+    - [x] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P) :white_check_mark:
   
   - [x] Implement:
-    - [x] insert    // insert value into tree
-    - [x] get_node_count // get count of values stored
-    - [x] print_values // prints the values in the tree, from min to max
-    - [x] delete_tree
-    - [x] is_in_tree // returns true if given value exists in the tree
-    - [x] get_height // returns the height in nodes (single node's height is 1)
-    - [x] get_min   // returns the minimum value stored in the tree
-    - [x] get_max   // returns the maximum value stored in the tree
+    
+    - [x] insert    // insert value into tree :white_check_mark:
+    - [x] get_node_count // get count of values stored :white_check_mark:
+    - [x] print_values // prints the values in the tree, from min to max :white_check_mark:
+    - [x] delete_tree :white_check_mark:
+    - [x] is_in_tree // returns true if given value exists in the tree :white_check_mark:
+    - [x] get_height // returns the height in nodes (single node's height is 1) :white_check_mark:
+    - [x] get_min   // returns the minimum value stored in the tree :white_check_mark:
+    - [x] get_max   // returns the maximum value stored in the tree :white_check_mark:
     - [ ] is_binary_search_tree  (Implemented only Recursive as of now)
-    - [x] delete_value
-    - [x] get_successor // returns next-highest value in tree after given value, -1 if none
+    - [x] delete_value :white_check_mark:
+    - [x] get_successor // returns next-highest value in tree after given value, -1 if none :white_check_mark:
 
 - ### Heap / Priority Queue / Binary Heap
   
   - visualized as a tree, but is usually linear in storage (array, linked list)
   
-  - [x] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-  - [x] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
-  - [x] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations)
-  - [x] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees)
-  - [x] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark)
-  - [x] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations)
-  - [x] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees)
-  - [x] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode)
-  - [x] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
-  - [x] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort)
-  - [x] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap)
+  - [x] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure)) :white_check_mark:
+  
+  - [x] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction) :white_check_mark:
+  
+  - [x] [Naive Implementations (video)](https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations) :white_check_mark:
+  
+  - [x] [Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees) :white_check_mark:
+  
+  - [x] [Tree Height Remark (video)](https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark) :white_check_mark:
+  
+  - [x] [Basic Operations (video)](https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations) :white_check_mark:
+  
+  - [x] [Complete Binary Trees (video)](https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees) :white_check_mark:
+  
+  - [x] [Pseudocode (video)](https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode) :white_check_mark:
+  
+  - [x] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291) :white_check_mark:
+  
+  - [x] [Heap Sort (video)](https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort) :white_check_mark:
+  
+  - [x] [Building a heap (video)](https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap) :white_check_mark:
+  
   - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) [TODO: watch later : Long MIT video]
+  
   - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE) [TODO: watch later]
+  
   - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw) [TODO: watch later]
+  
   - [x] Implement a max-heap:
-    - [x] insert
-    - [x] sift_up - needed for insert
-    - [x] get_max - returns the max item, without removing it
-    - [x] get_size() - return number of elements stored
-    - [x] is_empty() - returns true if heap contains no elements
-    - [x] extract_max - returns the max item, removing it
-    - [x] sift_down - needed for extract_max
-    - [x] remove(i) - removes item at index x
-    - [x] heapify - create a heap from an array of elements, needed for heap_sort
-    - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
+    
+    - [x] insert :white_check_mark:
+    - [x] sift_up - needed for insert :white_check_mark:
+    - [x] get_max - returns the max item, without removing it :white_check_mark:
+    - [x] get_size() - return number of elements stored :white_check_mark:
+    - [x] is_empty() - returns true if heap contains no elements :white_check_mark:
+    - [x] extract_max - returns the max item, removing it :white_check_mark:
+    - [x] sift_down - needed for extract_max :white_check_mark:
+    - [x] remove(i) - removes item at index x :white_check_mark:
+    - [x] heapify - create a heap from an array of elements, needed for heap_sort :white_check_mark:
+    - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap :white_check_mark:
 
 ## Sorting
 
 - [ ] Notes:
+  
   - Implement sorts & know best case/worst case, average complexity of each:
+    
     - no bubble sort - it's terrible - O(n^2), except when n <= 16
   
   - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
+    
     - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
     - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
     - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
     - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
+  
   - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
+    
     - I wouldn't recommend sorting a linked list, but merge sort is doable.
     - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
-      - [x] For heapsort, see Heap data structure above. Heap sort is great, but not stable
+      - [x] For heapsort, see Heap data structure above. Heap sort is great, but not stable :white_check_mark:
+
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
+  
   - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
   - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
   - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
   - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
   - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
+
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
-  - [x] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-  - [x] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+  
+  - [x] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort) :white_check_mark:
+  - [x] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection) :white_check_mark:
   - [ ] [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
-  - [x] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
+  - [x] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts) :white_check_mark:
+
 - [ ] UC Berkeley:
+  
   - [ ] [CS 61B Lecture 29: Sorting I (video)](https://archive.org/details/ucberkeley_webcast_EiUvYS2DT6I)
   - [ ] [CS 61B Lecture 30: Sorting II (video)](https://archive.org/details/ucberkeley_webcast_2hTY3t80Qsk)
   - [ ] [CS 61B Lecture 32: Sorting III (video)](https://archive.org/details/ucberkeley_webcast_Y6LOLpxg6Dc)
   - [ ] [CS 61B Lecture 33: Sorting V (video)](https://archive.org/details/ucberkeley_webcast_qNMQ4ly43p4)
-- [x] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB)
-- [x] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB)
+
+- [x] [Bubble Sort (video)](https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB) :white_check_mark:
+
+- [x] [Analyzing Bubble Sort (video)](https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB) :white_check_mark:
+
 - [ ] [Insertion Sort, Merge Sort (video)](https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) [TODO: watch later: long MIT video]
-- [x] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB)
-- [x] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB)
-- [x] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
-- [x] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
-- [x] [Heap Sort (video)](https://www.youtube.com/watch?v=6NB0GHY11Iw&list=PL89B61F78B552C1AB&index=10) [Added by Aloy]
+
+- [x] [Insertion Sort (video)](https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB) :white_check_mark:
+
+- [x] [Merge Sort (video)](https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB) :white_check_mark:
+
+- [x] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB) :white_check_mark:
+
+- [x] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB) :white_check_mark:
+
+- [x] [Heap Sort (video)](https://www.youtube.com/watch?v=6NB0GHY11Iw&list=PL89B61F78B552C1AB&index=10) [Added by Aloy] :white_check_mark:
+
 - [ ] Merge sort code:
+  
   - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
   - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
   - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
+
 - [ ] Quick sort code:
+  
   - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
   - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
   - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
 - [ ] Implement:
-  - [x] Mergesort: O(n log n) average and worst case
-  - [x] Quicksort O(n log n) average case
-  - [x] Bubblesort [Added by Aloy]
-  - [x] Selection sort and insertion sort are both O(n^2) average and worst case
-  - [x] For heapsort, see Heap data structure above
+  
+  - [x] Mergesort: O(n log n) average and worst case :white_check_mark:
+  - [x] Quicksort O(n log n) average case :white_check_mark:
+  - [x] Bubblesort [Added by Aloy] :white_check_mark:
+  - [x] Selection sort and insertion sort are both O(n^2) average and worst case :white_check_mark:
+  - [x] For heapsort, see Heap data structure above :white_check_mark:
+
 - [ ] Not required, but I recommended them:
+  
   - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
     - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
     - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
@@ -855,7 +929,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - [ ] Skiena Lectures - great intro:
   
-  - [x] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+  - [x] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11) :white_check_mark:
   - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
   - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
   - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
@@ -883,16 +957,24 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - I'll implement: (Aloy: Implemented with Adjacency Map instead of Adjacency List for Directed Graph. Also, implemented with Matrix for Directed Graph)
   
-  - [x] DFS with adjacency list (recursive)
-  - [x] DFS with adjacency list (iterative with stack)
+  - [x] DFS with adjacency list (recursive) :white_check_mark:
+  
+  - [x] DFS with adjacency list (iterative with stack) :white_check_mark:
+  
   - [ ] DFS with adjacency matrix (recursive)
+  
   - [ ] DFS with adjacency matrix (iterative with stack)
-  - [x] BFS with adjacency list
+  
+  - [x] BFS with adjacency list :white_check_mark:
+  
   - [ ] BFS with adjacency matrix
+  
   - [ ] single-source shortest path (Dijkstra)
+  
   - [ ] minimum spanning tree
   
   - DFS-based algorithms (see Aduni videos above):
+    
     - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
     - [ ] topological sort
     - [ ] count connected components in a graph
@@ -904,37 +986,54 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ### Recursion
   
   - [ ] Stanford lectures on recursion & backtracking:
+    
     - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
     - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
     - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
     - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
   
   - When it is appropriate to use it?
+  
   - How is tail recursion better than not?
+    
     - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
     - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
 - ### Dynamic Programming
   
   - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a problem as being a candidate for dynamic programming.
+  
   - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
+  
   - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
   
   - [ ] Videos:
+    
     - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
     
     - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+    
     - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+    
     - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+    
     - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+    
     - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+    
     - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    
     - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+    
     - [ ] List of individual DP problems (each is short):
         [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+  
   - [ ] Yale Lecture notes:
+    
     - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+  
   - [ ] Coursera:
+    
     - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
     - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
     - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
@@ -993,31 +1092,41 @@ Graphs can be used to represent many problems in computer science, so this secti
   
   - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
       and be able to recognize them when an interviewer asks you them in disguise.
+  
   - Know what NP-complete means.
   
   - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+  
   - [ ] Simonson:
+    
     - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
     - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+  
   - [ ] Skiena:
+    
     - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
     - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+  
   - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+  
   - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+  
   - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
   
   - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
+    
     - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+  
   - Pages 1048 - 1140 in CLRS if you have it.
 
 - ### Caches
   
   - [ ] LRU cache:
-    - [x] https://www.youtube.com/watch?v=R5ON3iwx78M
-    - [x] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+    - [x] https://www.youtube.com/watch?v=R5ON3iwx78M :white_check_mark:
+    - [x] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI) :white_check_mark:
     - [ ] ~~~~[LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)~~~~
   - [ ] CPU cache:
     - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
@@ -1026,34 +1135,58 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ### Processes and Threads
   
   - [ ] Computer Science 162 - Operating Systems (25 videos):
+    
     - for processes and threads see videos 1-11
     - ~~[Operating Systems and System Programming (video)](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)~~
   
   - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
+  
   - Covers:
+    
     - Processes, Threads, Concurrency issues
-      - Difference between processes and threads
-      - Processes
+      
+      - [x] Difference between processes and threads :white_check_mark:
+      
+      - [x] Processes :white_check_mark:
+      
       - Threads
+      
       - Locks
+      
       - Mutexes
+      
       - Semaphores
+      
       - Monitors
+      
       - How they work?
+      
       - Deadlock
+      
       - Livelock
+    
     - CPU activity, interrupts, context switching
+    
     - Modern concurrency constructs with multicore processors
+    
     - [Paging, segmentation and virtual memory (video)](https://www.youtube.com/watch?v=LKe7xK0bF7o&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=2)
+    
     - [Interrupts (video)](https://www.youtube.com/watch?v=uFKi2-J-6II&list=PLCiOXwirraUCBE9i_ukL8_Kfg6XNv7Se8&index=3)
+    
     - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
+    
     - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
+    
     - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
+    
     - Context switching
+      
       - How context switching is initiated by the operating system and underlying hardware
   
   - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M) 
+  
   - [ ] concurrency in Python (videos):
+    
     - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
     - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
     - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
@@ -1065,18 +1198,25 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ### Testing
   
   - To cover:
+    
     - how unit testing works
     - what are mock objects
     - what is integration testing
     - what is dependency injection
   
   - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+  
   - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+  
   - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+    
     - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+  
   - [ ] Dependency injection:
+    
     - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
     - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+  
   - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
@@ -1090,8 +1230,8 @@ Graphs can be used to represent many problems in computer science, so this secti
   
   - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
     
-    - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-    - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+    - [x] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
+    - [x] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
     - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
     - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
     - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
@@ -1104,20 +1244,29 @@ Graphs can be used to represent many problems in computer science, so this secti
   
   - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
       to track the path
+  
   - I read through code, but will not implement
   
   - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+    
     - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
     - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
     - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+  
   - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+  
   - [ ] Short course videos:
+    
     - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
     - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
     - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+  
   - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+  
   - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
+  
   - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+  
   - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (video)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### Floating Point Numbers
@@ -1132,28 +1281,40 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - ### Endianness
   
-  - [x] [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html) - [Updated Link](https://www.cs.umd.edu/~meesh/cmsc311/clin-cmsc311//Lectures/lecture6/endian.htm)
-  - [x] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-  - [x] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+  - [x] [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html) - [Updated Link](https://www.cs.umd.edu/~meesh/cmsc311/clin-cmsc311//Lectures/lecture6/endian.htm) :white_check_mark:
+  - [x] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo) :white_check_mark:
+  - [x] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0) :white_check_mark:
     - Very technical talk for kernel devs. Don't worry if most is over your head.
     - The first half is enough.
 
 - ### Networking
   
   - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
+  
   - Otherwise, this is just good to know
   
   - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/computers-and-internet-code-org)
+  
   - [ ] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+  
   - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+  
   - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)
+  
   - [ ] [HTTP (video)](https://www.youtube.com/watch?v=WGJrLqtX7As)
+  
   - [ ] [SSL and HTTPS (video)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+  
   - [ ] [SSL/TLS (video)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
+  
   - [ ] [HTTP 2.0 (video)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
+  
   - [ ] [Video Series (21 videos) (video)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+  
   - [ ] [Subnetting Demystified - Part 5 CIDR Notation (video)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+  
   - [ ] Sockets:
+    
     - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
     - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
@@ -1165,7 +1326,9 @@ Graphs can be used to represent many problems in computer science, so this secti
   
       there is a lot to consider when designing a software/hardware system that can scale.
       Expect to spend quite a bit of time on this
+
 - Considerations:
+  
   - Scalability
     - Distill large data sets to single values
     - Transform one data set to another
@@ -1180,82 +1343,148 @@ Graphs can be used to represent many problems in computer science, so this secti
     - performance analysis and optimization
 
 - [ ] **START HERE**: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+
 - [ ] [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
+
 - [ ] [How Do I Prepare To Answer Design Questions In A Technical Interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
+
 - [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
+
 - [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
+
 - [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
+
 - [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below
+
 - [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+
 - [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
+
 - [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
+
 - [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
+
 - [ ] Consensus Algorithms:
+  
   - [ ] Paxos - [Paxos Agreement - Computerphile (video)](https://www.youtube.com/watch?v=s8JqcZtvnsM)
   - [ ] Raft - [An Introduction to the Raft Distributed Consensus Algorithm (video)](https://www.youtube.com/watch?v=P9Ydif5_qvE)
     - [ ] [Easy-to-read paper](https://raft.github.io/)
     - [ ] [Infographic](http://thesecretlivesofdata.com/raft/)
+
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+
 - [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+
 - [ ] Scalability:
+  
   - You don't need all of these. Just pick a few that interest you.
   
   - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+  
   - [ ] Short series:
+    
     - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
     - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
     - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
     - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+  
   - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+  
   - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+  
   - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+    
     - [extra: Google Pregel Graph Processing](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
+  
   - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
+  
   - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+  
   - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+  
   - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+  
   - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/competitive-programming/tutorials/the-importance-of-algorithms/)
+  
   - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
+  
   - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
+  
   - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+  
   - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+    
     - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
+  
   - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+  
   - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+  
   - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
+  
   - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
+  
   - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
+  
   - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
+  
   - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+  
   - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+  
   - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
+  
   - [ ] [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
+  
   - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+  
   - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
+  
   - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
+  
   - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
+  
   - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
+  
   - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+  
   - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
+  
   - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
+  
   - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+  
   - [ ] [Serverless (very long, just need the gist)](http://martinfowler.com/articles/serverless.html)
+  
   - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
+  
   - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
+  
   - [ ] [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
+  
   - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
+  
   - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
+  
   - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
+  
   - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+  
   - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+  
   - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
+  
   - [ ] Twitter:
+    
     - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
     - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
   
   - For even more, see "Mining Massive Datasets" video series in the [Video Series](#video-series) section
+
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
+  
   - review: [The System Design Primer](https://github.com/donnemartin/system-design-primer)
   - [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
   - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
@@ -1416,19 +1645,31 @@ Think of about 20 interview questions you'll get, along with the lines of the it
 Have a story, not just data, about something you accomplished.
 
 - Why do you want this job?
+
 - What's a tough problem you've solved?
+
 - Biggest challenges faced?
+
 - Best/worst designs seen?
+
 - Ideas for improving an existing product
+
 - How do you work best, as an individual and as part of a team?
+
 - Which of your skills or experiences would be assets in the role and why?
+
 - What did you most enjoy at [job x / project y]?
+
 - What was the biggest challenge you faced at [job x / project y]?
+
 - What was the hardest bug you faced at [job x / project y]?
+
 - What did you learn at [job x / project y]?
+
 - What would you have done better at [job x / project y]?
 
 - If you find hard to come up with good answers of this type interview questions, you can refer below link for some answer templates and have some idea. 
+
 - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
 ## Have questions for the interviewer
@@ -1820,16 +2061,23 @@ You're never really done.
   - **B-Trees**
     
     - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
+    
     - In Practice:
         B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
         its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
         block in a particular file. The basic problem is turning the file block i address into a disk block
         (or perhaps to a cylinder-head-sector) address
+    
     - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
+    
     - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
+    
     - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+    
     - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    
     - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    
     - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
       
             - covers cache-oblivious B-Trees, very interesting data structures
@@ -1893,25 +2141,40 @@ You're never really done.
 - ### Machine Learning
   
   - Why ML?
+    
     - [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
     - [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
     - [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
+  
   - [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+  
   - [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+  
   - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+  
   - [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+  
   - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+  
   - Courses:
+    
     - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
       
           - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
           - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
+    
     - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
+    
     - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
+    
     - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+    
     - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
+    
     - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
+  
   - Resources:
+    
     - Books:
       - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
       - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
@@ -1928,6 +2191,7 @@ You're never really done.
     You want to get hired in this century, right?
 
 - **SOLID**   
+  
   - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
   - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
     - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
